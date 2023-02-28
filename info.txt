@@ -1,0 +1,4 @@
+1..to migrate first db for tenant 
+php artisan tenants:artisan "migrate --path=database/migrations/newtenant/tenant --database=tenant"
+2..to migrate all tenants recreate all put use it if migration for all tenant that is your migration 
+php artisan tenants:artisan "migrate:fresh" 
